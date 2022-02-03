@@ -8,7 +8,7 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Тоглоомын заавар" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Тухайн өдрийн өгөгдсөн үгийг 6 удаагийн оролдлогоор таана. Сонгосон үгээ
         оруулсны дараа дөрвөлжингийн өнгө өөрчлөгдөж таны сонгосон үг өнөөдрийн
