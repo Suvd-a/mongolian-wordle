@@ -9,12 +9,12 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        This is an open source word guessing game -{' '}
+        Энэ бол үг таадаг тоглоом юм. Энэхүү тоглоомын эх кодыг -{' '}
         <a
           href="https://github.com/hannahcode/GAME"
           className="underline font-bold"
         >
-          check out the code here
+          эндээс үзнэ үү.
         </a>{' '}
       </p>
     </BaseModal>

@@ -10,41 +10,42 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word.
+        Тухайн өдрийн өгөгдсөн үгийг 6 удаагийн оролдлогоор таана. Сонгосон үгээ
+        оруулсны дараа дөрвөлжингийн өнгө өөрчлөгдөж таны сонгосон үг өнөөдрийн
+        үгэнд хэр дөхөж очсоныг харуулна.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="W" status="correct" />
-        <Cell value="E" />
-        <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="Y" />
+        <Cell value="Н" status="correct" />
+        <Cell value="А" />
+        <Cell value="М" />
+        <Cell value="А" />
+        <Cell value="Г" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        Н үсэг өнөөдрийн үгэнд орсон мөн зөв байрлалд байна.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="I" />
-        <Cell value="L" status="present" />
-        <Cell value="O" />
-        <Cell value="T" />
+        <Cell value="С" />
+        <Cell value="А" />
+        <Cell value="Л" status="present" />
+        <Cell value="Х" />
+        <Cell value="И" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
+        Л үсэг өнөөдрийн үгэнд орсон хэдий ч буруу байрлалд байна.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
-        <Cell value="A" />
-        <Cell value="G" />
-        <Cell value="U" status="absent" />
-        <Cell value="E" />
+        <Cell value="Ш" />
+        <Cell value="А" />
+        <Cell value="Т" />
+        <Cell value="А" status="absent" />
+        <Cell value="Р" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U is not in the word in any spot.
+        А үсэг өнөөдрийн үгэнд ороогүй байна.
       </p>
     </BaseModal>
   )
