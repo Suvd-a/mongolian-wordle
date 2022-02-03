@@ -1,4 +1,4 @@
-export const GAME_TITLE = 'ТОГЛООМ'
+export const GAME_TITLE = 'БӨГЛӨ'
 
 export const WIN_MESSAGES = ['САЙН БАЙНА!', 'ЗӨВ БАЙНА.', 'ЯГ ЗӨВ!']
 export const GAME_COPIED_MESSAGE = 'Тоглоомыг хууллаа.'
