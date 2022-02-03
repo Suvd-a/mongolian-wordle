@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mongolian-wordle/static/css/main.79debace.css",
-    "main.js": "/mongolian-wordle/static/js/main.f5a803ea.js",
+    "main.js": "/mongolian-wordle/static/js/main.02ad683f.js",
     "static/js/787.3500bfec.chunk.js": "/mongolian-wordle/static/js/787.3500bfec.chunk.js",
     "index.html": "/mongolian-wordle/index.html",
     "main.79debace.css.map": "/mongolian-wordle/static/css/main.79debace.css.map",
-    "main.f5a803ea.js.map": "/mongolian-wordle/static/js/main.f5a803ea.js.map",
+    "main.02ad683f.js.map": "/mongolian-wordle/static/js/main.02ad683f.js.map",
     "787.3500bfec.chunk.js.map": "/mongolian-wordle/static/js/787.3500bfec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79debace.css",
-    "static/js/main.f5a803ea.js"
+    "static/js/main.02ad683f.js"
   ]
 }

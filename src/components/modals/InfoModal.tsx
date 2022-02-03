@@ -12,7 +12,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Тухайн өдрийн өгөгдсөн үгийг 6 удаагийн оролдлогоор таана. Сонгосон үгээ
         оруулсны дараа дөрвөлжингийн өнгө өөрчлөгдөж таны сонгосон үг өнөөдрийн
-        үгэнд хэр дөхөж очсоныг харуулна.
+        үгтэй таарсан эсэхийг харуулна.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
